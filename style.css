@@ -70,7 +70,7 @@ body {
   transition: ease-out 0.3s;
 
   padding-top: 9px;
-  padding-left: 9px;
+  padding-left: 7px;
 }
 .button:hover {
   box-shadow: inset 90px 0 0 0 #ffa8a7;
