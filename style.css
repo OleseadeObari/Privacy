@@ -49,6 +49,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 3em;
+  color: #111827;
   /* margin-bottom: 4em; */
 }
 .button button {
@@ -65,6 +66,7 @@
 .template {
   margin-left: 30px;
   font-size: 1.2em;
+  color: #111827;
 }
 /* section one ends here */
 
@@ -92,53 +94,56 @@
   /* background-color: #a535f1; */
   margin-top: 3em;
 }
-/* .platform {
-  border: 1px solid #fff;
-  border-radius: 20px;
+
+.platform-one,
+.platform-two,
+.platform-three {
+  height: 280px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 10px;
   box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.089);
-} */
-/* .image{
-  padding: 3rem;
-} */
-/* .choice-platforms {
+  margin-bottom: 3vh;
+  color: #111827;
+}
+.platform-one,
+.platform-two,
+.platform-three {
+  margin-left: 2%;
+}
+.choice-platforms {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  /* justify-content: center; */
   align-items: center;
-} */
+}
 
 .image img {
   display: block;
   margin: 0 auto;
 }
-.platform-header {
-  text-align: center;
-}
-.platform-subhead {
-  text-align: center;
-}
-/*  */
-.image-one {
-  border: 1px solid #d50c0c;
-}
-.image-two {
-  border: 1px solid #d50c0c;
-}
-.image-three {
-  border: 1px solid #d50c0c;
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
 }
 .platform-header {
+  font-size: 1.4em;
+  text-align: center;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
 .platform-subhead {
-  font-size: 0.9em;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 0 8px;
 }
 @media screen and (max-width: 50em) {
-  /* i could switch the chages of this container should in case the code doesnt go as planned */
   .container {
     margin: 0.7rem 1rem;
-    background-color: ;
   }
   .top-section {
     display: flex;
@@ -162,36 +167,33 @@
   }
   .links {
     margin-top: 2em;
-    /* margin-bottom: 4em; */
   }
   .choice-platforms {
     display: block;
-    justify-content: center;
-
+    /* justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    text-align: center;
+    text-align: center; */
   }
-  .one,
-  .two,
-  .three {
-    margin-top: 1em;
+  .platforms {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .platform-one,
+  .platform-two,
+  .platform-three {
+    margin-left: 0%;
   }
 }
-/* section two starts here */
-/*    border: 1px solid #fff;
-  border-radius: 20px;
-  box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.089); */
 
-/* .platform-one {
-  height: 100%;
-  width: 25%;
-}
-.platform-two {
-  height: 100%;
-  width: 25%;
-  margin: 0 2em;
-}
+.platform-one,
+.platform-two,
 .platform-three {
-  height: 100%;
-  width: 25%;
-} */
+  height: 280px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.089);
+  margin-bottom: 3vh;
+}
