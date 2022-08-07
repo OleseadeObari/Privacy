@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Inter", sans-serif;
+}
 .container {
   margin: 1rem 2rem;
   background-color: #ffffff;
@@ -11,8 +14,6 @@
 .top-section {
   display: flex;
   flex-direction: row;
-
-  /* margin: 0 auto; */
 }
 .illustration {
   width: 100%;
