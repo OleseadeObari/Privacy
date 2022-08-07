@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 1rem 2rem;
+  background-color: #ffffff;
+}
+/* section one starts here */
+.top-section {
+  display: flex;
+  flex-direction: row;
+
+  /* margin: 0 auto; */
+}
+.illustration {
+  width: 100%;
+  /* margin: 0 auto; */
+}
+.illustration img {
+  display: block;
+  margin: 0 auto;
+  /* width: 350; */
+}
+.private-policy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-section-writeup {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+.paragraph-one {
+  font-size: 1.3em;
+}
+.header-one {
+  font-size: 2em;
+}
+.wrap {
+  white-space: nowrap;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  /* margin-bottom: 4em; */
+}
+.button button {
+  border: 1px solid #a535f1;
+  border-radius: 25px;
+  background-color: #a535f1;
+  padding: 10px 18px;
+}
+.button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+.template {
+  margin-left: 30px;
+  font-size: 1.2em;
+}
+/* section one ends here */
+
+/* section two starts here */
+.section-two {
+  margin-top: 3em;
+}
+
+.second-section-writeup {
+  margin-top: 2em;
+
+  text-align: center;
+}
+.header-two {
+  padding-top: 1em;
+  font-size: 1.9em;
+}
+.paragraph-two {
+  font-size: 1.3em;
+  padding-top: 0.3em;
+  text-align: center;
+  word-wrap: break-word;
+}
+.platforms {
+  /* background-color: #a535f1; */
+  margin-top: 3em;
+}
+/* .platform {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.089);
+} */
+/* .image{
+  padding: 3rem;
+} */
+/* .choice-platforms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.image img {
+  display: block;
+  margin: 0 auto;
+}
+.platform-header {
+  text-align: center;
+}
+.platform-subhead {
+  text-align: center;
+}
+/*  */
+.image-one {
+  border: 1px solid #d50c0c;
+}
+.image-two {
+  border: 1px solid #d50c0c;
+}
+.image-three {
+  border: 1px solid #d50c0c;
+}
+.platform-header {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.platform-subhead {
+  font-size: 0.9em;
+}
+@media screen and (max-width: 50em) {
+  /* i could switch the chages of this container should in case the code doesnt go as planned */
+  .container {
+    margin: 0.7rem 1rem;
+    background-color: ;
+  }
+  .top-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .illustration img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+  .private-policy {
+    margin-top: 3vh;
+    font-size: 1.2em;
+  }
+  .paragraph-one {
+    font-size: 1.1em;
+    margin-bottom: 5vh;
+  }
+  .header-one {
+    font-size: 1.3em;
+  }
+  .links {
+    margin-top: 2em;
+    /* margin-bottom: 4em; */
+  }
+  .choice-platforms {
+    display: block;
+    justify-content: center;
+
+    margin: 0 auto;
+    text-align: center;
+  }
+  .one,
+  .two,
+  .three {
+    margin-top: 1em;
+  }
+}
+/* section two starts here */
+/*    border: 1px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.089); */
+
+/* .platform-one {
+  height: 100%;
+  width: 25%;
+}
+.platform-two {
+  height: 100%;
+  width: 25%;
+  margin: 0 2em;
+}
+.platform-three {
+  height: 100%;
+  width: 25%;
+} */
