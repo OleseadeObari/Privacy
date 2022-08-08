@@ -40,8 +40,8 @@ body {
   font-size: 1.3em;
 }
 .header-one {
-  padding-bottom: 0.2em;
-  font-size: 2em;
+  padding-bottom: 0.3em;
+  font-size: 1.7em;
 }
 .wrap {
   white-space: nowrap;
@@ -66,14 +66,14 @@ body {
   border: none;
   background-color: #a535f1;
   border-radius: 25px;
-  box-shadow: inset 0 0 0 0 #ffa8a7;
+  box-shadow: inset 0 0 0 0 #6e23a1;
   transition: ease-out 0.3s;
 
   padding-top: 9px;
   padding-left: 7px;
 }
 .button:hover {
-  box-shadow: inset 90px 0 0 0 #ffa8a7;
+  box-shadow: inset 90px 0 0 0 #6e23a1;
   cursor: pointer;
 }
 .button a {
@@ -101,6 +101,7 @@ body {
 }
 .header-two {
   padding-top: 1em;
+  padding-bottom: 0.3em;
   font-size: 1.9em;
 }
 .paragraph-two {
@@ -182,28 +183,19 @@ body {
     font-size: 1.2em;
   }
   .paragraph-one {
-    font-size: 0.9em;
+    font-size: 1em;
     margin-bottom: 5vh;
   }
-  .paragraph-two {
-    font-size: 1.1em;
-  }
-  .platform-subhead {
-    font-size: 1.1em;
-  }
-  .header-one,
-  .header-two {
-    font-size: 1.4em;
-  }
+
   .links {
     margin-top: 2em;
   }
   .choice-platforms {
     display: block;
-    /* justify-content: center;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
-    text-align: center; */
+    text-align: center;
   }
   .platforms {
     display: block;
