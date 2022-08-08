@@ -13,4 +13,8 @@ body {
 }
 .header {
   font-weight: 900;
+  color: #251b2c;
+}
+.sub-head {
+  color: #251b2c;
 }
