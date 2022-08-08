@@ -162,10 +162,10 @@ body {
   text-align: center;
   padding: 0 8px;
 }
-@media screen and (max-width: 50em) {
-  .container {
+ @media screen and (max-width: 50em) {
+  /* .container {
     margin: 0.7rem 1rem;
-  }
+  } */
   .top-section {
     display: flex;
     flex-direction: column-reverse;
@@ -209,4 +209,4 @@ body {
     padding-top: 3vh;
     margin-left: 0;
   }
-}
+} */
