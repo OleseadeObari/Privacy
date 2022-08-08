@@ -201,11 +201,12 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .platform-one,
   .platform-two,
   .platform-three {
-    margin-left: 0%;
-    padding-top: 4vh;
+    padding-top: 3vh;
+    margin-left: 0;
   }
 }
