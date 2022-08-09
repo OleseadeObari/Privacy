@@ -135,6 +135,7 @@ body {
   color: #111827;
   background-color: #ffffff;
   margin-left: 2%;
+  padding-bottom: 4vh;
 }
 .choice-platforms {
   display: flex;
